@@ -1,0 +1,39 @@
+body
+{
+	text-align:justify;
+	background-image:url(congimg.jpg);
+	background-size: cover;
+	  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+a
+{
+	text-align:justify;
+	color:yellow;
+	font-family:Tahoma,Geneva,sans-serif;
+	margin-left:30px;
+
+}
+.cong{
+	text-align:justify;
+	background:rgba(47,62,123,0.8);
+	padding:120px;
+	margin-top:80px;
+	height:200px;
+	margin-left:180px;
+	margin:0 auto;
+	margin-top:120px;
+	width:500px;
+
+}
+form
+{
+	width:450px;
+	text-align:center;
+}
+h2
+{
+	margin-top:23px;
+	margin-left:10px;
+}

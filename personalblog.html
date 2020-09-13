@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Against Deforestation in Delhi</title>
+    <link rel="stylesheet" href="main1.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="images/logo.svg" alt="23andfour logo" class="logo">
+
+            <nav>
+                <a href="#" class="hide-desktop">
+                    <img src="images/ham.svg" alt="toggle menu" class="menu" id="menu">
+                </a>
+
+                <ul class="show-desktop hide-mobile" id="nav">
+                    <li id="exit" class="exit-btn hide-desktop">
+                        <img src="images/exit.svg" alt="exit menu">
+                    </li>
+                    <li><a href="index.html">home</a></li>
+                    <li><a href="blog.html">blogs</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section>
+            <div class="imga" align="center"><img src="deforestation.jpg" height="400" width="700"></div><br><br>
+
+            
+            <h1>"Delhi deforestation"</h1>
+            <p class="subhead">Save the trees or delete the lives!</p>
+
+            <img src="images/scroll.svg" alt="scroll down" class="scroll hide-mobile show-desktop">
+        </section>
+    </div>
+
+    <div class="blue-container">
+        <div class="container">
+            <ul class="al">
+                <li><a href="#">
+                    <img src="images/icon-1.svg" alt="Calendar icon"></a>
+                    <p align="left"><h2>Major events and calender to be looked into</h2></p><br>
+                </li>
+                <li><a href="#">
+                    <img src="images/icon-2.svg" alt="Calendar icon"></a>
+                    <p align="center"><h2>Donate for a cause by your own will</h2></p><br>
+                </li>
+                <li><a href="#">
+                    <img src="images/icon-3.svg" alt="Calendar icon"></a>
+                    <p align="right"><h2>Discussion platform and statistical analysis</h2></p>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="gray-container">
+        <center><div class="container">
+            <ul>
+                <li>
+                    <figure>
+                        <img src="images/user1.png" alt="User testimonial picture">
+                        <blockquote>Save the nature or you will need saving!Don't neglect the nature as you will be neglected</blockquote>
+                        <figcaption>- Mrs.Jennifer D'souza(initiator)</figcaption>
+                    </figure>
+                </li>
+<li>
+                    <figure>
+                        <img src="images/user2.png" alt="User testimonial picture">
+                        <blockquote>I don't want to give protection to the forests.I want to create a world where the forests need no protection!</blockquote>
+                        <figcaption>- Mr.Akash Patil(partner)</figcaption>
+                    </figure>
+                </li>
+                
+            </ul>
+        </div></center>
+    </div>
+
+    <div class="container">
+        <h2>Make an impact now!</h2>
+        <a href="#" class="cta">Follow</a>
+    </div>
+
+    <footer>
+        <div class="footer-container">
+            <div class="container">
+                <a href="index.html">
+                    <img src="images/logo-white.svg" class="logo" alt="logo">
+                </a>
+                <p class="address">PES UNIVERSITY, Bangalore<br>Karnataka,India</p>
+                <ul class="footer-links">
+                    <li><a href="constraints.htm">Terms of Service</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+
+    <script>
+    
+        var menu = document.getElementById('menu');
+        var nav = document.getElementById('nav');
+        var exit = document.getElementById('exit');
+
+        menu.addEventListener('click', function(e) {
+            nav.classList.toggle('hide-mobile');
+            e.preventDefault();
+        });
+
+        exit.addEventListener('click', function(e) {
+            nav.classList.add('hide-mobile');
+            e.preventDefault();
+        });
+
+    </script>
+
+</body>
+</html>
